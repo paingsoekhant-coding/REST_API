@@ -1,6 +1,6 @@
 
 ### REST API with Laravel 11 
-In this REST API project include Blogs and Birds api.I used default database of Laravel 11 (Sqlite).
+In this REST API project include Blogs and Birds API.I used default database of Laravel 11 (Sqlite).
 I took Birds Data from [sannlynnhtun-coding](https://github.com/sannlynnhtun-coding);
 
 #### End Points For Blogs
