@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('birds',[BirdController::class,'saveJson']);
+
