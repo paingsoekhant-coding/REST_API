@@ -46,7 +46,8 @@
             <div class="row min-vh-100 align-items-center align-content-center">
                 <div class="col-md-6 ">
                     <div class="text-center">
-                        <img src="{{ asset('img/intro.svg') }}" class="" width="500px" height="500px" alt="image">
+                        <img src="{{ asset('img/intro.svg') }}" class="" width="500px" height="500px"
+                            alt="image">
                     </div>
                 </div>
                 <div class="col-md-6 order-md-first">
@@ -67,12 +68,14 @@
     </section>
     <!-- home page end -->
 
-      <!-- example section start -->
-      <div class="container-lg py-4">
+    <!-- example section start -->
+    <div class="container-lg py-4">
         <div class="row text-center">
             <h3 class="fs-4">Get tired of Lorem ipsum data?!</h3>
             <h3 class="fs-4">Didn't you find any free e-commerce API?!</h3>
-            <p class="fw-light fs-4 mt-4">fakeStoreApi is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website without running any server-side code. It's awesome for teaching purposes, sample codes, tests, etc.</p>
+            <p class="fw-light fs-4 mt-4">fakeStoreApi is a free online REST API that you can use whenever you need
+                Pseudo-real data for your e-commerce or shopping website without running any server-side code. It's
+                awesome for teaching purposes, sample codes, tests, etc.</p>
         </div>
         <div class="row mt-5">
             <h2 style="color: blueviolet;">Example Code</h2>
@@ -89,8 +92,10 @@
                     </div>
                 </div>
             </div>
-            <button id="tryIt" class="ms-3 w-25 btn mt-3 text-white fw-medium" style="background-color: limegreen;">Try
-                it</button>
+            <button id="tryIt" class="ms-3 w-25 btn mt-3 text-white fw-medium"
+            style="background-color: limegreen;">Try
+            it</button>
+
 
             <div class="d-flex justify-content-between">
                 <div id="result" class="card w-100 h-100 mt-2 bg-light" style="display: none;">
@@ -115,8 +120,8 @@
     </div>
     <!-- example section end -->
 
-     <!-- resources section  start -->
-     <div class="container-lg mt-5 mb-5">
+    <!-- resources section  start -->
+    <div class="container-lg mt-5 mb-5">
         <div class="row align-items-center align-content-center">
             <h2 style="color: blueviolet;">Resources</h2>
             <p class="fw-light fs-5 mt-2">There are 4 main resources need in shopping prototypes</p>
@@ -138,11 +143,63 @@
                     <span class="btn fw-medium text-white" style="background-color: blueviolet;">New!</span>
                 </li>
             </ul>
-            <a href="" class="btn w-25 text-white fw-medium" style="background-color: limegreen;">View Detail on Docs</a>
+            <a href="" class="btn w-25 text-white fw-medium" style="background-color: limegreen;">View Detail
+                on Docs</a>
         </div>
     </div>
     <!-- resources section end  -->
 
+    <!-- route section start -->
+    <div class="container-lg mt-5 mb-5">
+        <div class="row">
+            <h2 style="color: blueviolet;">Routes</h2>
+            <p class="fw-light fs-5 mt-2">All HTTP methods are supported</p>
+            <ul class="list-unstyled fs-5 mt-2">
+                <li class="d-flex justify-content-between m-2">
+                    <span>GET</span>
+                    <a href="">/products</a>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>GET</span>
+                    <a href="">/products/1</a>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>GET</span>
+                    <a href="">/products/categories</a>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>GET</span>
+                    <a href="">/products/category/jewelery</a>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>GET</span>
+                    <a href="">/carts?userId=1</a>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>GET</span>
+                    <a href="">/products?limit=5</a>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>POST</span>
+                    <span>/products</span>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>PUT</span>
+                    <span>/products/1</span>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>PATCH</span>
+                    <span>/products/1</span>
+                </li>
+                <li class="d-flex justify-content-between m-2">
+                    <span>DELETE</span>
+                    <span>/products/1</span>
+                </li>
+            </ul>
+            <a href="" class="btn w-25 p-2 text-white fw-medium" style="background-color: limegreen;">View Detail on Docs</a>
+        </div>
+    </div>
+    <!-- route section end  -->
 
     <!-- footer section start -->
     <div class="footer border-top py-5" style="background-color: #D6DBDF ;">
@@ -156,7 +213,6 @@
             </div>
         </div>
     </div>
-
     <!-- footer section end  -->
 
 
@@ -176,11 +232,16 @@
         integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.7/dist/notiflix-aio-3.2.7.min.js" integrity="sha256-G6sj3uSY1Rtnyomq54b5wiwwe2+A5Zym254DHutrXM4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.7/dist/notiflix-aio-3.2.7.min.js"
+        integrity="sha256-G6sj3uSY1Rtnyomq54b5wiwwe2+A5Zym254DHutrXM4=" crossorigin="anonymous"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script>
+        {{-- <script src="./js/script.js"></script> --}}
+
+    <script>
         $("#tryIt").click(function() {
             Notiflix.Loading.pulse();
             setTimeout(function() {
@@ -188,7 +249,7 @@
             }, 2000);
             $("#result").show();
         });
-        </script>
+    </script>
 
 </body>
 
