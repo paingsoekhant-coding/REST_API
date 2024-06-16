@@ -7,38 +7,11 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Fake API</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notiflix@3.2.7/src/notiflix.min.css">
+<x-css></x-css>
 
 <body>
 
-    <!-- nav bar start -->
-    <nav id="navbar" class="navbar navbar-expand-lg mt-4">
-        <div class="container">
-            <a class="navbar-brand" href="#" style="color: blueviolet;">
-                <h5>Fake API</h5>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
-                    <a class="nav-link text-dark" href="#">Docs</a>
-                    <a class="nav-link text-dark" href="#">GitHub</a>
-                    <a class="nav-link text-dark" href="#">Buy me a coffee</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- nav bar end  -->
+    <x-navbar></x-navbar>
 
     <!-- home page start  -->
     <section>
@@ -154,7 +127,7 @@
         <div class="row">
             <h2 style="color: blueviolet;">Routes</h2>
             <p class="fw-light fs-5 mt-2">All HTTP methods are supported</p>
-            <ul class="list-unstyled fs-5 mt-2">
+            <ul class="list-unstyled fs-6 mt-2">
                 <li class="d-flex justify-content-between m-2">
                     <span>GET</span>
                     <a href="">/products</a>
@@ -201,45 +174,9 @@
     </div>
     <!-- route section end  -->
 
-    <!-- footer section start -->
-    <div class="footer border-top py-5" style="background-color: #D6DBDF ;">
-        <div class="container-lg">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="m-0 text-center ">Made with
-                        <span class="fw-medium">♥ by Paing Soe Khant</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- footer section end  -->
+    <x-footer></x-footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
-        integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.7/dist/notiflix-aio-3.2.7.min.js"
-        integrity="sha256-G6sj3uSY1Rtnyomq54b5wiwwe2+A5Zym254DHutrXM4=" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        {{-- <script src="./js/script.js"></script> --}}
+    <x-cdn></x-cdn>
 
     <script>
         $("#tryIt").click(function() {
