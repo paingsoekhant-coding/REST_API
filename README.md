@@ -17,4 +17,9 @@ I took Birds Data from [sannlynnhtun-coding](https://github.com/sannlynnhtun-cod
 * **Get Single Birds** : GET "/api/bird/{id}".
 * **Get Birds Name** : GET "/api/birds/name".
 
+![Cover](./public/github/coverImg/cv1.png)
+![Cover](./public/github/coverImg/cv2.png)
+![Cover](./public/github/coverImg/cv3.png)
+![Cover](./public/github/coverImg/cv4.png)
+
 
